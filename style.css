@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #2f3035;
+  background-image: url(./Pictures/rainbow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+header {
+  height: 118px;
+  text-align: center;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+}
+main {
+  height: 400px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  padding-top: 40px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+footer {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img {
+  height: 100px;
+}
+h1 {
+  font-size: 84px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 20px;
+  color: azure;
+}
+a {
+  color: azure;
+  font-family: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: lime;
+  font-size: 25px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer p {
+  font-size: 10px;
+  text-align: center;
+  color: azure;
+}
+
+.maps {
+  padding-bottom: 100px;
+}
